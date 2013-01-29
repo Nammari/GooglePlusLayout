@@ -76,4 +76,6 @@ public class VerticalGooglePlusLayout extends ScrollView implements
 		}
 		return false;
 	}
-}
+}//end class
+
+
