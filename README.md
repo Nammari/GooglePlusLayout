@@ -5,7 +5,7 @@ Google Plus Layout
       the main Layout that appears on the main page of google plus android application.
       
  * [for more info look at my blog post][1]
-
+ * [for video demo ][2]
 
 
 Developed By
@@ -32,4 +32,5 @@ License
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
-[1]: https://github.com/pakerfeldt
+[1]: http://nammari.tumblr.com/post/41893669349/goolge-plus-layout
+[2]: http://youtu.be/jvfDuJz4fw4
