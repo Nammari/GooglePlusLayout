@@ -3,6 +3,8 @@ Google Plus Layout
 
       Google Plus Layout is a custom layout that support playing animation on child view in a serialize manner like the 
       the main Layout that appears on the main page of google plus android application.
+      
+ * [for more info look at my blog post][1]
 
 
 
@@ -30,3 +32,4 @@ License
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+[1]: https://github.com/pakerfeldt
