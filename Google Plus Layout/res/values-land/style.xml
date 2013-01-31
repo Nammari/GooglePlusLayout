@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="root_style">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+</resources>

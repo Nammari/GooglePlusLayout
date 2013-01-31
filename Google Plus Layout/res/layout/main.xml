@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nammari.googleplus.VerticalGooglePlusLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        style="@style/root_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textViewCustomStyle"
+            android:background="@color/item"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textViewCustomStyle"
+            android:background="@color/item_alt"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textViewCustomStyle"
+            android:background="@color/item"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textViewCustomStyle"
+            android:background="@color/item_alt"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textViewCustomStyle"
+            android:background="@color/item"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textViewCustomStyle"
+            android:background="@color/item_alt"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textViewCustomStyle"
+            android:background="@color/item"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textViewCustomStyle"
+            android:background="@color/item_alt"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textViewCustomStyle"
+            android:background="@color/item"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textViewCustomStyle"
+            android:background="@color/item_alt"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textViewCustomStyle"
+            android:background="@color/item"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textViewCustomStyle"
+            android:background="@color/item_alt"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textViewCustomStyle"
+            android:background="@color/item"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textViewCustomStyle"
+            android:background="@color/item_alt"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textViewCustomStyle"
+            android:background="@color/item"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/textViewCustomStyle"
+            android:background="@color/item_alt"
+            android:text="@string/title" />
+    </LinearLayout>
+
+</com.nammari.googleplus.VerticalGooglePlusLayout>
