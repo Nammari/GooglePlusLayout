@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2013 Ahmed Nammari -->
 
 <!-- Licensed under the Apache License, Version 2.0 (the "License"); -->
@@ -11,7 +12,6 @@
 <!-- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. -->
 <!-- See the License for the specific language governing permissions and -->
 <!-- limitations under the License. -->
-
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <style name="AppTheme" parent="android:Theme.Light" />
@@ -21,11 +21,11 @@
         <item name="android:layout_margin">20dp</item>
         <item name="android:gravity">center</item>
         <item name="android:maxHeight">300dp</item>
-        <item name="android:layout_gravity">center</item>
         <item name="android:maxWidth">200dp</item>
+        <item name="android:layout_gravity">center</item>
         <item name="android:textColor">#FFFFFF</item>
-        <item name="android:layout_width">200dp</item>
-        <item name="android:layout_height">160dp</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">200dp</item>
     </style>
 
     <style name="root_style">

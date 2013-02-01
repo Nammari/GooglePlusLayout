@@ -14,8 +14,6 @@
 <!-- limitations under the License. -->
 <resources>
 
-    <color name="item">#ED2676</color>
-    <color name="item_alt">#9D26ED</color>
-    <color name="background_color">#000000</color>
+    <string name="property_name">rotationY</string>
 
 </resources>

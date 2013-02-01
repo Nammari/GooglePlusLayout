@@ -12,10 +12,19 @@
 <!-- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. -->
 <!-- See the License for the specific language governing permissions and -->
 <!-- limitations under the License. -->
-<resources>
 
-    <color name="item">#ED2676</color>
-    <color name="item_alt">#9D26ED</color>
-    <color name="background_color">#000000</color>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator" >
 
-</resources>
+    <translate
+        android:duration="@integer/config_slide_time"
+        android:fromYDelta="30%p"
+        android:toYDelta="0" />
+
+    <alpha
+        android:duration="@integer/config_slide_time"
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0" />
+
+</set>

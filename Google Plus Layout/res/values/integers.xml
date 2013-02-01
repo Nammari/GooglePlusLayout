@@ -18,6 +18,9 @@
     <!-- See the License for the specific language governing permissions and -->
     <!-- limitations under the License. -->
 
-    <integer name="config_slide_time">500</integer>
+    <integer name="config_slide_time">600</integer>
+    <integer name="config_roate_time">800</integer>
+    <integer name="start_rotate_angle">45</integer>
+    <integer name="end_rotate_angle">0</integer>
 
 </resources>

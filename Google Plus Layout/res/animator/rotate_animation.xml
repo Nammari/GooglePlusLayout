@@ -12,10 +12,11 @@
 <!-- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. -->
 <!-- See the License for the specific language governing permissions and -->
 <!-- limitations under the License. -->
-<resources>
-
-    <color name="item">#ED2676</color>
-    <color name="item_alt">#9D26ED</color>
-    <color name="background_color">#000000</color>
-
-</resources>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@integer/config_roate_time"
+    android:interpolator="@android:anim/decelerate_interpolator"
+    android:propertyName="@string/property_name"
+    android:repeatCount="0"
+    android:valueFrom="@integer/start_rotate_angle"
+    android:valueTo="@integer/end_rotate_angle"
+    android:valueType="floatType" />

@@ -3,15 +3,10 @@
  */
 package com.nammari.googleplus;
 
-import com.nammari.googleplus.R;
-
-import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
-import android.view.animation.AnimationUtils;
 import android.widget.HorizontalScrollView;
 import android.widget.ScrollView;
 
@@ -101,7 +96,7 @@ class ScrollerHandler implements OnGlobalLayoutListener, ScrollHandlerInterface 
 		}
 		// now we don't want to keep listening because childs of child is
 		// added now so we can start the initial animation .
-		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+		if (Util.isJellyBean()) {
 			rootView.getViewTreeObserver().removeOnGlobalLayoutListener(this);
 		} else {
 			rootView.getViewTreeObserver().removeGlobalOnLayoutListener(this);
@@ -176,21 +171,10 @@ class ScrollerHandler implements OnGlobalLayoutListener, ScrollHandlerInterface 
 
 	private void playAnimation(View child, boolean flipAnimation) {
 
-		mAnimationHelper.playAnimation(child, AnimationUtils.loadAnimation(
-				rootView.getContext(), flipAnimation ? R.anim.slide_up_right
-						: R.anim.slide_up_left));
-	}
+		mAnimationHelper.playAnimation(child, R.anim.slide_up,
+				R.animator.rotate_animation);
 
-	// use only when you want to save state for animation/ be careful with this
-	// can be very
-	// dangerous
-	// public int getMutuableIntegerVaue() {
-	// return mutuableInteger[0];
-	// }
-	//
-	// public void setMutuableIntegerValue(int val) {
-	// mutuableInteger[0] = val;
-	// }
+	}
 
 	// use only when you want to save state for animation
 	public void saveState(Bundle args) {
@@ -212,8 +196,7 @@ class ScrollerHandler implements OnGlobalLayoutListener, ScrollHandlerInterface 
 
 	public boolean didAniamtionPlayedOnChild(int position) {
 		boolean result = false;
-		Log.d("position", "" + position);
-		Log.d("mutuableInteger", mutuableInteger[0] + "");
+
 		if (mutuableInteger[0] >= position) {
 			result = true;
 		}

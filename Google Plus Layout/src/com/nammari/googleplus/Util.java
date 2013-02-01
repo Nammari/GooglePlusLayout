@@ -1,10 +1,8 @@
 package com.nammari.googleplus;
 
-import android.app.Activity;
-import android.os.Bundle;
+import android.os.Build;
 
-/*
- * Copyright (C) 2013 Ahmed Nammari
+/* Copyright (C) 2013 Ahmed Nammari
  * 
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,12 +17,17 @@ import android.os.Bundle;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-public class GooglePlusActivity extends Activity {
+public class Util {
 
-	@Override
-	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main);
+	public Util() {
+		// TODO Auto-generated constructor stub
 	}
 
+	public static boolean isJellyBean() {
+		return Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN;
+	}
+
+	public static boolean isHoneyComb() {
+		return Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB;
+	}
 }

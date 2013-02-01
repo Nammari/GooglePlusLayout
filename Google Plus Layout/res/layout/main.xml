@@ -28,98 +28,93 @@
         <TextView
             android:id="@+id/textView1"
             style="@style/textViewCustomStyle"
-            android:background="@color/item"
+            android:background="@drawable/custom_background"
             android:text="@string/title" />
 
         <TextView
             android:id="@+id/textView1"
             style="@style/textViewCustomStyle"
-            android:background="@color/item_alt"
+            android:background="@drawable/custom_background"
             android:text="@string/title" />
 
         <TextView
             android:id="@+id/textView1"
             style="@style/textViewCustomStyle"
-            android:background="@color/item"
+            android:background="@drawable/custom_background"
             android:text="@string/title" />
 
         <TextView
             android:id="@+id/textView1"
             style="@style/textViewCustomStyle"
-            android:background="@color/item_alt"
+            android:background="@drawable/custom_background"
             android:text="@string/title" />
 
         <TextView
             android:id="@+id/textView1"
             style="@style/textViewCustomStyle"
-            android:background="@color/item"
+            android:background="@drawable/custom_background"
             android:text="@string/title" />
 
         <TextView
             android:id="@+id/textView1"
             style="@style/textViewCustomStyle"
-            android:background="@color/item_alt"
+            android:background="@drawable/custom_background"
             android:text="@string/title" />
 
         <TextView
             android:id="@+id/textView1"
             style="@style/textViewCustomStyle"
-            android:background="@color/item"
+            android:background="@drawable/custom_background"
             android:text="@string/title" />
 
         <TextView
             android:id="@+id/textView1"
             style="@style/textViewCustomStyle"
-            android:background="@color/item_alt"
+            android:background="@drawable/custom_background"
             android:text="@string/title" />
 
         <TextView
             android:id="@+id/textView1"
             style="@style/textViewCustomStyle"
-            android:background="@color/item"
+            android:background="@drawable/custom_background"
             android:text="@string/title" />
 
         <TextView
             android:id="@+id/textView1"
             style="@style/textViewCustomStyle"
-            android:background="@color/item_alt"
+            android:background="@drawable/custom_background"
             android:text="@string/title" />
 
         <TextView
             android:id="@+id/textView1"
             style="@style/textViewCustomStyle"
-            android:background="@color/item"
+            android:background="@drawable/custom_background"
             android:text="@string/title" />
 
         <TextView
             android:id="@+id/textView1"
             style="@style/textViewCustomStyle"
-            android:background="@color/item_alt"
+            android:background="@drawable/custom_background"
             android:text="@string/title" />
 
         <TextView
             android:id="@+id/textView1"
             style="@style/textViewCustomStyle"
-            android:background="@color/item"
+            android:background="@drawable/custom_background"
             android:text="@string/title" />
 
         <TextView
             android:id="@+id/textView1"
             style="@style/textViewCustomStyle"
-            android:background="@color/item_alt"
+            android:background="@drawable/custom_background"
             android:text="@string/title" />
 
         <TextView
             android:id="@+id/textView1"
             style="@style/textViewCustomStyle"
-            android:background="@color/item"
+            android:background="@drawable/custom_background"
             android:text="@string/title" />
 
-        <TextView
-            android:id="@+id/textView1"
-            style="@style/textViewCustomStyle"
-            android:background="@color/item_alt"
-            android:text="@string/title" />
     </LinearLayout>
 
 </com.nammari.googleplus.VerticalGooglePlusLayout>

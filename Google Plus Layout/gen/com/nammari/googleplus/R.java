@@ -9,37 +9,66 @@ package com.nammari.googleplus;
 
 public final class R {
     public static final class anim {
-        public static final int slide_up_left=0x7f040000;
-        public static final int slide_up_right=0x7f040001;
+        public static final int slide_up=0x7f040000;
+    }
+    public static final class animator {
+        public static final int rotate_animation=0x7f050000;
     }
     public static final class attr {
     }
     public static final class color {
-        public static final int background_color=0x7f050002;
-        public static final int item=0x7f050000;
-        public static final int item_alt=0x7f050001;
+        public static final int background_color=0x7f070002;
+        public static final int item=0x7f070000;
+        public static final int item_alt=0x7f070001;
     }
     public static final class drawable {
-        public static final int ic_action_search=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
+        public static final int custom_background=0x7f020000;
+        public static final int ic_action_search=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
     }
     public static final class id {
-        public static final int textView1=0x7f090000;
+        public static final int textView1=0x7f0a0000;
     }
     public static final class integer {
-        public static final int config_slide_time=0x7f060000;
+        public static final int config_roate_time=0x7f080001;
+        /**  Copyright (C) 2013 Ahmed Nammari 
+ Licensed under the Apache License, Version 2.0 (the "License"); 
+ you may not use this file except in compliance with the License. 
+ You may obtain a copy of the License at 
+ http://www.apache.org/licenses/LICENSE-2.0 
+ Unless required by applicable law or agreed to in writing, software 
+ distributed under the License is distributed on an "AS IS" BASIS, 
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ See the License for the specific language governing permissions and 
+ limitations under the License. 
+         */
+        public static final int config_slide_time=0x7f080000;
+        public static final int end_rotate_angle=0x7f080003;
+        public static final int start_rotate_angle=0x7f080002;
     }
     public static final class layout {
         public static final int main=0x7f030000;
     }
     public static final class string {
-        public static final int app_name=0x7f070000;
-        public static final int title=0x7f070001;
-        public static final int title_activity_main=0x7f070002;
+        /**  Copyright (C) 2013 Ahmed Nammari 
+ Licensed under the Apache License, Version 2.0 (the "License"); 
+ you may not use this file except in compliance with the License. 
+ You may obtain a copy of the License at 
+ http://www.apache.org/licenses/LICENSE-2.0 
+ Unless required by applicable law or agreed to in writing, software 
+ distributed under the License is distributed on an "AS IS" BASIS, 
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ See the License for the specific language governing permissions and 
+ limitations under the License. 
+         */
+        public static final int app_name=0x7f060001;
+        public static final int property_name=0x7f060000;
+        public static final int title=0x7f060002;
+        public static final int title_activity_main=0x7f060003;
     }
     public static final class style {
-        public static final int AppTheme=0x7f080001;
-        public static final int root_style=0x7f080000;
-        public static final int textViewCustomStyle=0x7f080002;
+        public static final int AppTheme=0x7f090000;
+        public static final int root_style=0x7f090002;
+        public static final int textViewCustomStyle=0x7f090001;
     }
 }
