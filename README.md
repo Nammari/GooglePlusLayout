@@ -11,7 +11,7 @@ Google Plus Layout
 Developed By
 ============
 
- * Ahmed Nammari - <confuciusthegreat@gmail.com>
+ * Ahmed Nammari - <nammariahmad@gmail.com>
 
 
 
